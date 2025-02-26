@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.firstdiv {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://github.com/nabivk24/nabi-webpage/blob/master/netflix.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    top: 19px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+nav img {
+    width: 170px;
+}
+
+.btns {
+    padding: 4px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.lang {
+    padding: 4px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 23%;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content h3 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content p {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.content input {
+    background: transparent;
+    backdrop-filter: blur(50px);
+    width: 300px;
+    padding: 17px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.start {
+    width: 150px;
+    padding: 17px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.formm{
+    padding: 7px;
+}
+
+.seconddiv {
+    position: relative;
+    border: 12px solid gray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.info{
+    padding:80px ;
+}
+.info h1{
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.info p{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.thirddiv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 9px solid gray;
+    color: white;
+    border-left: none;
+    border-right: none;
+    padding: 60px;
+}
+.secondinfo{
+    padding: 110px   ;
+}
+.secondinfo h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.secondinfo p{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.fourthdiv {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+}
+.thirdinfo{
+    padding: 110px;
+    justify-content: center;
+}
+.thirdinfo h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.thirdinfo p{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+.fifthdiv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 9px solid gray;
+    color: white;
+    border-left: none;
+    border-right: none;
+    padding: 60px;
+}
+.fourthinfo h1{
+    font-size: 60px;
+    font-weight: 700;
+    justify-content: center;
+    
+}
+.fourthinfo p{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+.childlogo img {
+    width: 490px;
+    padding: 0px 0px;
+}
+.questions {
+    background-color: black;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.questions h1 {
+    font-size: 50px;
+}
+
+.o {
+    font-size: x-large;
+    background: #303030;
+    padding: 20px;
+    width: 800px;
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+}
+
+.o:hover {
+    background-color: #646060;
+}
+
+.cont {
+    background: #303030;
+    padding: 20px;
+    width: 800px;
+}
+.questions .cont{
+    overflow: hidden;
+   
+}
+.submi {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 20px 30px;
+    border: 9px solid gray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.submi input {
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    width: 300px;
+    padding: 17px;
+    border-radius: 10px;
+}
+::placeholder{
+    color: white;
+}
+.submi button {
+    width: 150px;
+    border-radius: 10px;
+    padding: 17px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.help {
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+.help h4 {
+    font-size: 20px;
+    padding: 30px 93px;
+}
+
+.help u {
+    cursor: pointer;
+}
+
+table tr th {
+    width: 350px;
+    height: 60px;
+    text-align: left;
+    padding: 0px 90px;
+}
